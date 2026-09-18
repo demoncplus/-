@@ -69,6 +69,6 @@ c81a3f2 添加订单示例
 查看最新提交的详细信息：git show HEAD
 查看所有详细提交记录：git log
 
-![4个区域理解](images/2026.9.18.png)
+![4个区域理解](images/image.png)
 ![常用命令](images/2.jpg)
 
