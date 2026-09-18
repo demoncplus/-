@@ -23,16 +23,15 @@ New-Item note.txt 创建空文件
 "第一篇笔记" > note.txt等价于 "第一篇笔记" | Set-Content note.txt
 > 会覆盖原文件内容，想保留旧内容并继续写，用 >>；eg: "第二行内容" >> note.txt
 查看状态git status，这时候应该出现在Untracked files中
-
 代码：
 "第一篇笔记" > note.txt
 git status
+
 
 练习2 观察差异
 git diff              工作区 vs 缓存区
 git diff --staged     缓存区 vs 最近提交
 git diff HEAD         当前全部修改 vs 最近提交
-
 code：
 "第二行" >> note.txt
 git diff
@@ -68,6 +67,7 @@ c81a3f2 添加订单示例
 查看最新一次提交：git log -1 –oneline
 查看最新提交的详细信息：git show HEAD
 查看所有详细提交记录：git log
+
 
 ![4个区域理解](images/image.png)
 ![常用命令](images/2.jpg)
